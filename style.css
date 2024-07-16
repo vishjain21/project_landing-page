@@ -57,26 +57,23 @@ button {
 
 /* HERO */
 .hero {
-    flex: 1 0 512px;
-    display: flex;
     background-color: #1F2937;
 }
 
 .hero-content {
-    flex-basis: 1040px;
-    min-height: 512px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 32px;
-    gap: 16px;
+    padding: 8px 32px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
 }
 
 .main {
     font-size: 48px;
     font-weight: 1000;
     color: #F9FAF8;
-    margin-bottom: 4px;
 }
 
 .secondary {
@@ -86,15 +83,7 @@ button {
 
 .hero button {
     border-style: none;
-}
-
-.image-box {
-    max-width: 560px;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
+    margin: 24px 0;
 }
 
 /* SECTION-1 */
@@ -166,8 +155,7 @@ button {
 
 .signup-content {
     flex-basis: 1040px;
-    min-height: 320px;
-    box-sizing: border-box;
+    min-height: 144px;
     padding: 88px 32px;
 }
 
@@ -175,12 +163,13 @@ button {
     min-height: 144px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-content: center;
     background-color: #3882F6;
     border-radius: 8px;
     box-sizing: border-box;
-    padding: 0 32px;
-    gap: 32px;
+    padding: 32px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .big {
